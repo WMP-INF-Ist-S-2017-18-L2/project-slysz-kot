@@ -39,7 +39,7 @@ class GroupController {
 
     @PostMapping("/group")
     ResponseEntity<Group> createGroup(@Valid @RequestBody Group group) throws URISyntaxException {
-        log.info("Request to create group: {}", group);
+        log.info("Utworzenie usera:  {}", group);
         Group result = groupRepository.save(group);
         return ResponseEntity.created(new URI("/api/group/" + result.getId()))
                 .body(result);
@@ -47,14 +47,14 @@ class GroupController {
 
     @PutMapping("/group")
     ResponseEntity<Group> updateGroup(@Valid @RequestBody Group group) {
-        log.info("Request to update group: {}", group);
+        log.info("Modyfikacja usera:  {}", group);
         Group result = groupRepository.save(group);
         return ResponseEntity.ok().body(result);
     }
 
     @DeleteMapping("/group/{id}")
     public ResponseEntity<?> deleteGroup(@PathVariable Long id) {
-        log.info("Request to delete group: {}", id);
+        log.info("Usunięcie usera: {}", id);
         groupRepository.deleteById(id);
         return ResponseEntity.ok().build();
     }

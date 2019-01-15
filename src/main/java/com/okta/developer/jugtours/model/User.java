@@ -16,12 +16,7 @@ import javax.persistence.Id;
 public class User {
 
     @Id
-    @GeneratedValue
     private String id;
-
-    @Column(name = "Imię")
     private String name;
-
-    @Column(name = "email")
     private String email;
 }

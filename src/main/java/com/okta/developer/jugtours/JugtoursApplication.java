@@ -23,8 +23,6 @@ public class JugtoursApplication {
 //		entityManager.close();
 //		entityManagerFactory.close();
 
-
 	}
-
 }
 
