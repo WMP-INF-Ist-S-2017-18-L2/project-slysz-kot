@@ -1,5 +1,6 @@
-package com.okta.developer.jugtours.model;
+package com.okta.developer.jugtours.repositories;
 
+import com.okta.developer.jugtours.model.Group;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

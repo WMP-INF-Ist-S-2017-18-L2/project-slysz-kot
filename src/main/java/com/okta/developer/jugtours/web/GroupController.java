@@ -1,7 +1,7 @@
 package com.okta.developer.jugtours.web;
 
 import com.okta.developer.jugtours.model.Group;
-import com.okta.developer.jugtours.model.GroupRepository;
+import com.okta.developer.jugtours.repositories.GroupRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

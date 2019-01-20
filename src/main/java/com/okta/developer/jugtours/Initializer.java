@@ -2,7 +2,7 @@ package com.okta.developer.jugtours;
 
 import com.okta.developer.jugtours.model.Event;
 import com.okta.developer.jugtours.model.Group;
-import com.okta.developer.jugtours.model.GroupRepository;
+import com.okta.developer.jugtours.repositories.GroupRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
